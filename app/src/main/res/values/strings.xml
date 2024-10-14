@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AÑADE JUGADOR Y PUNTUA</string>
+    <string name="elige_un_equipo">Elige un equipo:</string>
+    <string name="real_madrid">Real Madrid</string>
+    <string name="barcelona">Barcelona</string>
+    <string name="sevilla_fc">Sevilla FC</string>
+    <string name="real_betis">Real Betis</string>
+    <string name="introduce_un_jugador">Introduce un jugador</string>
+    <string name="a_adir">Añadir</string>
+</resources>
