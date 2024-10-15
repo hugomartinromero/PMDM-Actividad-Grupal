@@ -76,14 +76,17 @@
         android:id="@+id/spJugadores"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="10dp" />
+        android:layout_margin="10dp"
+        android:visibility="invisible" />
 
     <LinearLayout
+        android:id="@+id/estrellasJugador"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:visibility="invisible">
 
         <TextView
             android:id="@+id/lblNombre"
@@ -93,9 +96,11 @@
 
         <RatingBar
             android:id="@+id/ratingBar"
-            android:layout_width="80dp"
+            android:layout_width="235dp"
             android:layout_height="wrap_content"
-            android:numStars="5" />
+            android:numStars="5"
+            android:scaleX="0.5"
+            android:scaleY="0.5" />
 
         <TextView
             android:id="@+id/lblEstrellas"
@@ -107,5 +112,6 @@
     <TextView
         android:id="@+id/lblMediaEquipo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
 </LinearLayout>
